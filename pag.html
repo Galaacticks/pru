@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pagina Debug</title>
+  <link rel="stylesheet" href="estilo_pagina_debug.css">
+</head>
+<body>
+
+  <!-- Botones de cambio de contenido (ocultos) -->
+  <input type="radio" name="pagina" id="perfil" class="rad-pag" checked>
+  <input type="radio" name="pagina" id="configuracion" class="rad-pag">
+  <input type="radio" name="pagina" id="acerca" class="rad-pag">
+  <input type="radio" name="pagina" id="Html" class="rad-pag">
+
+  <!-- Menú hamburguesa -->
+  <input type="checkbox" id="toggle-hamb" class="check-hamb">
+  <label for="toggle-hamb" class="hamb-btn">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </label>
+
+  <!-- Menú lateral -->
+  <nav class="menu-box">
+    <label for="perfil">Python</label>
+    <label for="configuracion">Java</label>
+    <label for="acerca">C++</label>
+    <label for="Html">Html</label>
+  </nav>
+
+  <!-- Contenidos -->
+  <main class="contenido">
+    <div class="pagina" id="pag-perfil">
+      <div class="contenpadre">
+        
+        <div class="colubnas">
+          <div>en la sintaxis de Py es simple e intuitiva con secciones simples</div>
+          <div>print=mostrar
+            <br>print("hola mundo", var)
+            <br>
+            <br>int=asignar como entero
+            <br>var=int(3)
+            <br>
+            <br>float=asignar como desimal
+            <br>var=float(3.1411592)
+            <br>
+            <br>str=asignar como palabra
+            <br>var=str("hola")
+            <br>
+            <br>input=ingresar datos
+            <br><br><br>se pueden conbinar el input con el int o float o str
+            <br>var=int(input("texto no obligatorio "))
+            <br>var=float(input("texto no obligatorio "))
+            <br>var=str(input("texto no obligatorio "))
+
+
+          </div>
+        </div>
+
+
+
+        <div class="colubnas">
+          <div>fsfssjbdhhgughgfughdfdfd
+            dfdjjj
+          </div>
+        </div>
+
+
+
+        <div class="colubnas">
+          <div>fdfdfdfdf</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pagina" id="pag-configuracion">
+      <h2>Configuración</h2>
+      <p>Opciones: tema, idioma, notificaciones...</p>
+    </div>
+
+    <div class="pagina" id="pag-acerca">
+      <h2>Acerca de</h2>
+      <p>Descripción del sitio, versión, contacto, etc.</p>
+    </div>
+
+    <div class="pagina" id="pag-Html">
+      hola
+    </div>
+  </main>
+
+</body>
+</html>
